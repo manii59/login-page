@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>Registration Form</title>
+			<link rel="stylesheet" href="./assets/css/style.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+			<style>
+				body{
+					background: url(./assets/images/bimg.jpg);
+					background-repeat: no-repeat;
+					background-size: cover;
+					font-family: 'Bree Serif', serif;
+				}
+			</style>
+	</head>
+	<body>
+		<div class="form">
+
+			<form>
+				<div class="heading">
+					<h1>
+						Sign up
+					</h1>
+				</div>
+				<div class="name">
+					<label for="name">Enter your Name:
+					</label>
+						<input id="name" name="Name" type="text">
+				</div>
+					
+				<div class="dob">	
+					<label for="Dob" >Date of Birth:
+					</label>
+						<input id="Dob" type="Date" name="Date-of-Birth">
+				</div>
+				
+				<div class="mobile">
+					<label for="Mobile" >Mobile No.:
+					</label>
+						<input id="Mobile" type="tel" maxlength="10" name="Mobile-no.">
+				</div>
+				
+				<div class="gender">
+					<label>Gender:
+					</label>
+						<span class="rgender">
+						<label for="Male">
+							<input id="Male" name="Gender" type="radio" value="Male">Male
+						
+						<label for="Female">
+							<input id="Female" name="Gender" type="radio" value="Female">Female
+						</label>
+						</span>
+				</div>
+				
+				<div class="email">
+					<label for="email">E-mail:
+					</label>
+						<input id="email" type="email" name="email" placeholder="abc@gmail.com">
+				</div>
+				
+				<div class="address">
+					<label for="address">Address:
+					</label>
+						<input id="address" name="address" type="text">
+				</div>
+				<div class="sign-up">
+					<input type="submit" value="Sign up">
+				</div>
+					<span class="foot">Already have an account?</span><a href="login.html">Login</a>
+				</div>
+			</form>
+			
+			<script> alert("You are now create a new account ") </script>
+		</div>
+	</body>
+</html>

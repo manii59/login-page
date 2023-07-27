@@ -1,0 +1,115 @@
+body{
+	background-image: url("./assets/images/bc_img.avif");
+}
+.form{
+	margin: 140px 500px 0px 589px;
+    background-color: rgba(0,0,0,0.5);
+  
+    width: 381px;
+    height: 514px;
+    color: #fff;
+    padding: 10px 10px 10px 43px;
+    border-radius: 48px;
+	font-size: 19px;
+}
+.heading{
+	margin: 10px 10px 10px 99px;
+}
+.name{
+	margin: 10px 0px 0px 0px;
+}
+.name input{
+	margin: 10px 10px 10px 10px;
+}
+.dob{
+	margin: 10px 0px 0px 0px;
+}
+.dob input{
+	margin: 10px 10px 10px 36px;
+}
+.mobile{
+	margin: 10px 10px 10px 0px;
+}
+.mobile input{
+	margin: 10px 10px 10px 46px;
+}
+.gender{
+	margin:  10px 0px 0px 0px;
+}
+.gender input{
+	
+}
+.rgender{
+	margin: 10px 10px 10px 67px;
+}
+.email{
+	margin:  10px 0px 0px 0px;
+}
+.email input{
+	margin: 10px 10px 10px 77px;
+}
+.address{
+	margin:  10px 0px 0px 0px;
+}
+.address input{
+	margin: 10px 10px 10px 66px;
+}
+.sign-up{
+	margin: 20px auto;	
+}
+.sign-up input{
+	width: 317px;
+    border-radius: 21px;
+    height: 40px;
+    background-color: #3498da;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+}
+.foot{
+	margin: 20px 10px 20px 49px;
+}
+
+.login-heading{
+	margin: 0px 10px 0px 99px;
+}
+.login{
+	color: #fff;
+    margin: 205px 14px 23px 593px;
+    padding: 29px 4px 0px 50px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: .8;
+    height: 250px;
+    width: 357px;
+	border-radius: 36px;
+	font-size: 19px;
+}
+
+.username{
+	margin: 10px;
+}
+.username input{
+	margin: 10px;
+    width: 188px;
+}
+.password{
+	margin: 10px;
+}
+.password input{
+	margin: 10px 10px 10px 14px;
+	
+}
+.signup-foot{
+	margin: 19px 10px 10px 46px;
+}
+.btn-login{
+	width: 317px;
+    border-radius: 21px;
+    height: 40px;
+    background-color: #3498da;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+}
