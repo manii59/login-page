@@ -1,0 +1,7 @@
+<html>
+	<head><title>login-mani</title></head>
+	<body>
+		<h1>Maninder Singh</h1>
+		<p>My name is maninder singh</p>
+	</body>
+</html>
